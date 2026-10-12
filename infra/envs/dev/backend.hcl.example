@@ -1,0 +1,6 @@
+# Copy to backend.hcl (gitignored) and fill from `terraform output backend_hcl` in infra/bootstrap.
+bucket         = "deployhub-tfstate-<ACCOUNT_ID>-us-east-1"
+key            = "envs/dev/terraform.tfstate"
+region         = "us-east-1"
+dynamodb_table = "deployhub-tflock"
+encrypt        = true
