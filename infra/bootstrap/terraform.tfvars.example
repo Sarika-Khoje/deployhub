@@ -1,3 +1,5 @@
-owner        = "your-name"
-alert_emails = ["you@example.com"]
-github_repo  = "your-github-user/deployhub"
+owner        = "Sarika"
+alert_emails = ["sarika.khoje1@gmail.com"]
+github_repo  = "Sarika-Khoje/deployhub"
+monthly_budget_usd = 10
+
